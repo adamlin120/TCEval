@@ -200,7 +200,7 @@ if __name__ == "__main__":
         default="data/judge_prompts_for_mt_bench_tw.jsonl",
         help="The file of judge prompts.",
     )
-    parser.add_argument("--judge-model", type=str, default="aide-gpt-4")
+    parser.add_argument("--judge-model", type=str, default="gpt-4")
     parser.add_argument("--baseline-model", type=str, default="aide-gpt-35-turbo-16k-4k")
     parser.add_argument("--ref-ans-model", type=str, default="human_w_gpt4_augmented")
     parser.add_argument(
